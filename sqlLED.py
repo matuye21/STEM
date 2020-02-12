@@ -7,7 +7,7 @@ GPIO.setwarnings(False)
 GPIO.setup(18,GPIO.OUT)
             
 lightValue = []
-db = pymysql.connect(host="localhost", user="root", passwd="password", db="ledSite")
+db = pymysql.connect(host="localhost", user="user", passwd="password", db="ledSite")
 db.autocommit(True)
 # Create cursor
 cur = db.cursor(pymysql.cursors.DictCursor)
