@@ -1,5 +1,5 @@
 import mysql.connector
-db = mysql.connector.connect(host="localhost", user=user", passwd="password", db="school")
+db = mysql.connector.connect(host="localhost", user="user", passwd="password", db="school")
 
 cur = db.cursor()
 
